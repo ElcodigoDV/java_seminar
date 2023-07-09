@@ -112,6 +112,12 @@ class AddressBook {
             result.add(record);
         return result;
     }
+
+    public boolean add (int num){
+        fot (int i =0; i <  (num)
+        return Record.containsKey(num);
+    }
+
 }
 
 public class Tutorial0001 {
@@ -121,5 +127,7 @@ public class Tutorial0001 {
         addressBook.addRecord("883-47-21", "Петр Петров", "пр. Мира");
         addressBook.addRecord("919-41-85", "Николай Николаев", "пер. Славы");
         System.out.println(addressBook.allRecords());
+        Iterator <Integer> iterator = Record.iterator();
+
     }
 }
